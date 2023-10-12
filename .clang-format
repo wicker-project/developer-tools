@@ -1,0 +1,34 @@
+Language: Cpp
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 100
+MaxEmptyLinesToKeep: 1
+AccessModifierOffset: -4
+AlignAfterOpenBracket: Align
+
+#language structure
+PointerAlignment: Left
+BreakBeforeBraces: Custom # Braces on a new line
+BraceWrapping: 
+  SplitEmptyFunction: false
+  AfterEnum: true
+  AfterClass: true
+  AfterStruct: true
+  AfterCaseLabel: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterControlStatement: true
+  BeforeLambdaBody: true
+  BeforeElse: true
+
+SpaceBeforeCtorInitializerColon: true
+ConstructorInitializerIndentWidth: 4
+BreakBeforeInheritanceComma: false
+BreakInheritanceList: AfterColon
+BreakConstructorInitializersBeforeComma: false
+BreakConstructorInitializers: AfterColon
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+SeparateDefinitionBlocks: Always
+AllowShortFunctionsOnASingleLine: false
+PackConstructorInitializers: Never
+AlwaysBreakTemplateDeclarations: Yes

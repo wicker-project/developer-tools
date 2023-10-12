@@ -1,21 +1,42 @@
 MIT License
 
-Copyright (c) 2023 wicker-project
+Copyright (c) 2023 The Wicker Project
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the 
+"Wicker Project Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, publish, 
+distribute, sublicense, and/or sell copies of the Software, and to permit 
+persons to whom the Software is furnished to do so, subject to the following 
+conditions:
+
+Since the software distributed by The Wicker Project is open source and free 
+of licensing fees, you are free to use, modify, and distribute the source 
+code, as long as you include this copyright statement.
+
+In particular, you can use software distributed by The Wicker Project to build 
+proprietary software and are under no obligation to redistribute any of your 
+source code that is built using Wicker Project Software. Note however, that 
+you may not do anything to software distributed by The Wicker Project, such 
+as copyrighting it yourself or claiming authorship of Wicker Project Software, 
+that will prevent it from being distributed freely using an open source 
+development model. 
+
+If you choose to modify Wicker Project Software, you are able to do so as a 
+private fork and maintain the project for your own use. In doing so, you may 
+update the copyright statement to your own, copyright if and only if you do 
+so with the inclusion of the following statement:
+
+"This code is a private fork of software developed by The Wicker Project under 
+a free and open source software license (Modified MIT)."
 
 The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+copies or substantial portions of the Wicker Project Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE WICKER PROJECT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO 
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES 
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, 
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE WICKER PROJECT SOFTWARE.
