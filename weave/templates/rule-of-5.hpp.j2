@@ -1,0 +1,46 @@
+#ifndef {{ classname.upper() }}_HPP_
+#define {{ classname.upper() }}_HPP_
+
+class {{ classname }}
+{
+public:
+    /**
+     * @brief Construct a new {{ classname }} object
+     */
+    {{ classname }}();
+
+    /**
+     * @brief Destroy the {{ classname }} object
+     */
+    ~{{ classname }}();
+
+    /**
+     * @brief Copy construct a new {{ classname }} object
+     * @param to_copy object to copy from
+     */
+    {{ classname }}(const {{ classname }}& to_copy);
+
+    /**
+     * @brief Move construct a new {{ classname }} object
+     * @param to_move object to move from
+     */
+    {{ classname }}({{ classname }}&& to_move);
+
+    /**
+     * @brief Copy assignment operator
+     * @param to_copy_assign object to copy from (rhs)
+     * @return {{ classname }}& result of copy assignment (lhs)
+     */
+    {{ classname }}& operator=(const {{ classname }}& to_copy_assign);
+
+    /**
+     * @brief Move assignment operator
+     * @param to_move_assign object to move from (rhs)
+     * @return {{ classname }}& result of move assignment (lhs)
+     */
+    {{ classname }}& operator=({{ classname }}&& to_move_assign);
+
+private:
+};
+
+#endif // {{ classname.upper() }}_HPP_
