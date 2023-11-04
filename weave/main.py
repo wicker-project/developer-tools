@@ -1,6 +1,6 @@
 import jinja2 as j2
 import argparse
-from os import walk, path, remove
+from os import walk, path, makedirs
 from pathlib import Path
 
 
@@ -22,6 +22,10 @@ def setup_parser(templates: dict[str, str]) -> argparse.ArgumentParser:
 def report_result(user_args: argparse.Namespace, result: str) -> None:
     # if user specifies a target output file
     if user_args.output != None:
+        # ensure any subdirectories specified exist
+        if (path.dirname(user_args.output) != ""):
+            makedirs(path.dirname(user_args.output), exist_ok=True)
+
         original_filename: str = user_args.output.split(".")[0]
         output_file: str = user_args.output
         i: int = 1
